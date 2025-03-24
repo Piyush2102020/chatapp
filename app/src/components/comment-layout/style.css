@@ -1,0 +1,58 @@
+.comment-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: start;
+    position: relative;
+}
+
+.post-dp {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.comment-details {
+    flex: 1;
+}
+
+.comment-content p {
+    margin: 5px 0;
+}
+
+.comment-actions {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    color: gray;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.comment-actions span:hover {
+    text-decoration: underline;
+}
+
+.comment-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.comment-icon svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: black;
+}
+
+
+@media (max-width:768px) {
+
+    .comment-layout{
+        font-size: 0.5rem;
+    }
+}

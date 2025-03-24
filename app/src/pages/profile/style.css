@@ -1,0 +1,58 @@
+.profile-page{
+    width: 100%;
+    gap: var(--margin-large);
+    overflow-y: scroll;
+    height: 100%;
+
+    align-items: start;
+}
+
+
+.profile-page h1,h2{
+    margin: 0px;
+    padding: 0px;
+}
+.profile-first-section{
+    gap: var(--margin-large);
+    padding: var(--margin-medium);
+    display: flex;
+    justify-items: start;
+    align-items: start;
+}
+.post-profile-pic{
+    width: 80px;
+    height: 80px;
+}
+
+
+.meta{
+    gap: var(--margin-large);
+    display: flex;
+}
+
+.meta-item{
+    align-items: center;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.profile-button-holder{
+    display: flex;
+    gap: var(--margin-medium);
+}
+
+.profile{
+    width: 30%;
+    padding: var(--padding-small);
+}
+
+.message{
+    background-color: gray;
+    color: black;
+}
+
+.profile-second-section{
+    margin-top: var(--margin-medium);
+}

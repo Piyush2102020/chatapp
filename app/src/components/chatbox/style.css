@@ -1,0 +1,12 @@
+.chatbox{
+    background-color: aqua;
+    width: 30vw;
+    height: 100%;
+}
+
+
+@media (max-width:768px) {
+    .chatbox{
+        display: none;
+    }
+}

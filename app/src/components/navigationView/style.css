@@ -1,0 +1,41 @@
+.navigation-bar{
+    width: fit-content;
+    gap: var(--margin-large);
+    padding: var(--padding-small);
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-base{
+    width: 30px;
+    height: 30px;
+    fill: none;
+}
+
+
+
+.icon-base.active{
+    fill: black;
+
+}
+
+
+@media (max-width:768px) {
+    
+    .navigation-bar{
+        flex-direction: row;
+        padding: 5px 0px;
+        position: fixed;
+        background-color: var(--color-background);
+        z-index: 10000;
+        width: 100vw;
+        bottom: 0px;
+        margin: 0;
+    }
+
+    .icon-base{
+        width: 20px;
+        height: 20px;
+    }
+}

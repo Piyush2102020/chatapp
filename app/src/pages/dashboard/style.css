@@ -1,0 +1,18 @@
+.dashboard-children{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-grow: 1;
+    height: 95vh;
+    align-items: center;
+}
+
+
+
+
+@media (width:768px) {
+    .dashboard-children{
+        flex-direction: column-reverse;
+    }
+
+}

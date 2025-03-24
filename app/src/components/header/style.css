@@ -1,0 +1,15 @@
+.app-name{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.app-header{
+    padding: var(--padding-medium);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.12);
+    display: flex;
+    max-height: 5vh;
+    position: sticky;
+    align-items: center;
+}

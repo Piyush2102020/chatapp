@@ -1,0 +1,70 @@
+.page-post{
+    width: 90%;
+    height: 90%;
+    padding: var(--padding-medium);
+    display: flex;
+    gap: var(--margin-medium);
+    resize: vertical;
+    overflow-y: scroll;
+    flex-direction: column;
+}
+
+.top-section{
+    gap: var(--margin-medium);
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid var(--color-element);
+}
+
+
+.content-area{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-image{
+    width: 100%;
+    border-radius: var(--radius-small);
+}
+
+.content-text{
+    outline: none;
+    width: inherit;
+    margin-bottom: 0px;
+    border: none;
+    overflow-x: hidden;
+    width: inherit;
+    resize: vertical;
+}
+
+.profile-pic{
+    width: 80px;
+    height: 80px;
+
+}
+
+.close-button{
+    width: fit-content;
+    position: absolute;
+    background-color: var(--color-element);
+    padding: var(--padding-small);
+    border-radius: var(--radius-medium);
+    margin: 10px 5px;
+}
+.button-base-normal{
+    align-self: flex-end;
+    width: 200px;
+    border-radius: var(--radius-large);
+    background-color: var(--color-accent);
+    color: white;
+    padding: var(--padding-small);
+}
+.image-holder{
+    width: 50%;
+    position: relative;
+    align-self: center;
+}
+::-webkit-scrollbar{
+    width: 1px;
+}
